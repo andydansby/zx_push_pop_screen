@@ -1,0 +1,13 @@
+Pixel_LUT	EQU 0D40BH
+coords_to_address EQU 0D3FAH
+data		EQU 0C000H
+end_of_data	EQU 0D380H
+end_of_next_line EQU 0D3DFH
+endless		EQU 08005H
+loop		EQU 0D394H
+loopsteps	EQU 0D380H
+originalStack	EQU 08008H
+push_pop	EQU 0D381H
+return		EQU 08004H
+start		EQU 08000H
+uphl		EQU 0D3CEH
